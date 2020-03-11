@@ -43,6 +43,6 @@ class NumberToWord
 
 end
 
-final_words = NumberToWord.new().letter_combinations("668699999")
+final_words = NumberToWord.new().letter_combinations("6686787825")
 
 print final_words
