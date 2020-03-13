@@ -1,4 +1,3 @@
-#include "home.rb"
 
 class NumberToWord
 
@@ -47,6 +46,6 @@ end
 
 #final_words = NumberToWord.new().letter_combinations("6686787825")
 #final_words = NumberToWord.new().letter_combinations("2282668687")
-final_words = NumberToWord.new().letter_combinations("82668687")
+#final_words = NumberToWord.new().letter_combinations("82668687")
 
-print final_words
+#print final_words
