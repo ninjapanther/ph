@@ -1,4 +1,5 @@
 require_relative "m"
+require_relative "m2"
 #imports the public class NumberToWord
 
 
