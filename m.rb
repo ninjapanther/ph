@@ -21,8 +21,12 @@ return ["error"] if digits.nil? || digits.length != 10 || digits.split('').selec
     dictionary = []
     file_path = "dictionary.txt"
     File.foreach( file_path ) do |word|
+
+      if word.length >= 3
+then 
       dictionary.push word.chop.to_s.downcase
-    end
+   end 
+end
     # get all letters for numbers in form of array
     keys = digits.chars.map{|digit|letters[digit]}
 
