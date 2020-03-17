@@ -42,6 +42,8 @@ end
       second_combination = second_array.shift.product(*second_array).map(&:join)
       next if second_combination.nil?
       results[i] = [(first_combination & dictionary), (second_combination & dictionary)] # get common values from arrays
+print results[i]	
+
     end
     #arrange words like we need as a output
     final_words = []
